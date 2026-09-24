@@ -9,11 +9,11 @@ def home():
 
 @app.route("/info")
 def sktechopsinfo():
-    return '<h1 style="color:violet;">****Welcome to DevOps****</h1>'
+    return '<h1 style="color:violet;">****Welcome to DevOps Project****</h1>'
 
 @app.route("/contact")
 def sktechopsemail():
-    return  '<h1 style="color:red;">Contact: admin@domain.com</h1>'
+    return  '<h1 style="color:red;">FOR ENQUIRY: admin@domain.com</h1>'
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
