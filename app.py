@@ -13,7 +13,7 @@ def sktechopsinfo():
 
 @app.route("/contact")
 def sktechopsemail():
-    return  '<h1 style="color:red;">FOR ENQUIRY: admin@domain.com</h1>'
+    return  '<h1 style="color:red;">FOR TEST ENQUIRY: admin@domain.com</h1>'
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
